@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="flex-center flex-column">
+            <h1 id="level">Level 1</h1>
+            <div class="alphabets">
+                <ul id="addAlpha">   </ul>
+            </div>
+            <h2 id="showCategories">Category</h2>
+            <div id="Question"> </div>
+            <h2 id="displayLives">displayLives</h2>
+            <a class="btn" class="flex-center" onclick="getHint(event)">Hint</a>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
